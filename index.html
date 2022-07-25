@@ -53,11 +53,11 @@
 
                         <!-- User enters Email -->
                     <label for="email">Enter email address:</label>
-                    <input type="text" placeholder="Email Address" name="email" id="email" />
+                    <input type="email" placeholder="Email Address" name="email" id="email" />
 
                         <!-- User enters Phone Number -->
                     <label for="phone">Enter Phone Number:</label>
-                    <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
                     <p>
                         <!-- adds a yes or no selection box -->
                         Have you worked out with a trainer before?
@@ -67,6 +67,16 @@
                         <input type="radio" name="trainer-confirm" id="trainer-no" />
                         <label for="trainer-no">No</label>
                     </p>
+                    <p>
+                        <!-- Checkbox to confirm age -->
+                        <label for="checkbox">
+                        I acknowledge that I am at least 18 years of age
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                        <!-- Submit Button -->
+                    <button type="submit">
+                        Get Running!
+                    </button>
                 
                 </form>
             </div>
